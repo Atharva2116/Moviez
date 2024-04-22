@@ -1,0 +1,44 @@
+
+.home-section{
+  background-color:black;
+  height: auto;
+  
+}
+
+
+.big-image{
+    display: flex;
+    
+}
+#big-image{
+    flex-wrap: wrap;
+    width: 95%;
+
+}
+
+.sliding-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    border-radius: 25px;
+    height: 80%;
+    margin-bottom: 100px;
+  }
+  
+  .slider-image {
+    margin-bottom:50px ;
+    border-radius: 50px;
+    max-height: 80%; 
+    object-fit: contain; /* Maintains aspect ratio while fitting the image inside */
+  }
+
+  .cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #grid{
+    background-color: black;
+  }

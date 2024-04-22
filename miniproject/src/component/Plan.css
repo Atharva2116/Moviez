@@ -1,0 +1,109 @@
+/* Plan.css */
+/* body{
+  
+    background-color: #373535;
+    background-image: url("./images/plan2.jpg");
+    background-size: cover; 
+    background-position: center; 
+ 
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.plan-cont{
+  position: relativa;
+    height: 140vh; 
+    background: url("./images/plan2.jpg") center center fixed;
+    background-size: cover;
+    
+}
+.card {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    /* border: 2px solid rgb(69, 42, 222); */
+    border: 1px solid gold;
+    box-shadow: rgba(209, 172, 22, 0.25) 0px 14px 28px, rgba(248, 228, 8, 0.22) 0px 10px 10px;
+    }
+  
+  .selected-plan {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+  }
+  
+  .selected-plan h2 {
+    color: green;
+  }
+  
+  .selected-plan p {
+    font-size: 18px;
+  }
+  
+  .selected-plan button {
+    margin-top: 10px;
+  }
+.card-body{
+    height: auto;
+    width: auto;
+    background-color:gold;
+    border-radius: 5px;
+}  
+
+.card-edit{
+  height: 300px;
+  transition: ease-in-out 700ms;
+}
+.card-edit:hover{
+  transform: scaleX(1.05) scaleY(1.05);
+}
+
+.card-edit-text{
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+.card-btn-edit{
+  background-color: rgb(12, 12, 12);
+}
+.card-btn-edit:hover{
+  border: blue;
+  /* color: rgb(10, 194, 235); */
+  background-color: #373535;
+}
+.container-plan{
+  padding: 40px;
+    margin-top: 2px;
+    transition: ease-in-out 700ms;
+    box-shadow: rgb(215, 57, 13) 0px 22px 70px 4px;
+    background-color: rgba(55, 53, 53, 0.5); /* Specify the background color with some transparency */
+    backdrop-filter: blur(5px); /* Apply a blur effect */
+    /* For older browsers or for broader compatibility, you may also want to include the -webkit- prefix */
+    -webkit-backdrop-filter: blur(5px); 
+    border-radius: 25px;
+}
+.trade-cont{
+  margin-bottom: 30px;
+  width: auto;
+  height: auto;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  
+}
+
+
+
+
+
+
+
+
